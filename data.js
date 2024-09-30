@@ -19,19 +19,23 @@ let mode;
 
 function hp() {
   while (mode != 0) {
+    mode = 0;
+    document.getElementById("hpButton").style.backgroundColor = "green";
+    document.getElementById("pcButton").style.backgroundColor = "transparent";
     createDiv("hpView");
     createButton(linkHP, "hpView");
     removeDiv("content", "pcView");
-    mode = 0;
   }
 }
 
 function pc() {
   while (mode != 1) {
+    mode = 1;
+    document.getElementById("pcButton").style.backgroundColor = "green";
+    document.getElementById("hpButton").style.backgroundColor = "transparent";
     createDiv("pcView");
     createButton(linkPC, "pcView");
     removeDiv("content", "hpView");
-    mode = 1;
   }
 }
 
@@ -47,9 +51,10 @@ function createButton(object, target) {
   for (let x in object) {
     const newButton = document.getElementById(target);
     const baru = document.createElement("a");
-    baru.innerHTML = x;
     baru.href = object[x];
     baru.target = "_blank";
+    baru.className = "textStyle";
+    baru.innerHTML = x;
 
     newButton.appendChild(baru);
   }

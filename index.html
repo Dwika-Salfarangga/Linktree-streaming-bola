@@ -4,29 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Linktree Streaming</title>
+    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
     <div class="main" id="main">
-      <h1>
+      <h1 class="textStyle">
         Kumpulan <br />
         Link Streaming Bola
       </h1>
-      <div class="navbar">
+      <div class="navbar textStyle">
         <p>Perangkat :</p>
-        <button onclick="pc()" class="" id="pcButton">PC</button>
-        <button onclick="hp()" class="" id="hpButton">HP</button>
+        <button onclick="pc()" id="pcButton">PC</button>
+        <button onclick="hp()" id="hpButton">HP</button>
       </div>
 
       <div id="content"></div>
 
-      <div class="footer">
+      <div class="footer textStyle">
         <p>
           Linknya rusak? laporkan
-          <a href="https://instagram.com/" target="_blank">disini</a>
+          <a
+            href="https://instagram.com/dwika.sl"
+            target="_blank"
+            style="color: white; background-color: red; text-decoration: none"
+            >kesini</a
+          >
         </p>
       </div>
+      <p class="textStyle">Created by: dsl</p>
     </div>
     <script src="data.js"></script>
   </body>
