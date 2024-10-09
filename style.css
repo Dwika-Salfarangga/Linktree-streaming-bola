@@ -97,8 +97,9 @@ body {
 /* Tips Start */
 .tips {
   width: max-content;
-  margin-top: 73%;
-  margin-left: 50%;
-  transform: translate(-50%, 0);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 125%);
   z-index: -1;
 }
