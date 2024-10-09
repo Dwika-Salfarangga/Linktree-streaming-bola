@@ -96,7 +96,7 @@ body {
 
 /* Tips Start */
 .tips {
-  width: max-content;
+  width: 350px;
   font-size: 15px;
   position: absolute;
   top: 50%;
