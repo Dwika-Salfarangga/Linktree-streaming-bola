@@ -26,6 +26,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  z-index: 1;
 }
 
 .main > h1 {
@@ -91,4 +92,13 @@ body {
 .textStyle {
   color: white;
   filter: drop-shadow(2px 2px black);
+}
+
+/* Tips Start */
+.tips {
+  width: max-content;
+  margin-top: 73%;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+  z-index: -1;
 }
