@@ -12,7 +12,7 @@ const linkHP = {
   "tigoals 2": "https://idn00054.tigoals118.com/",
   "duktek sports": "https://nobar-bola.duktek.online/",
   "phong nha": "https://xemphongnha-kebang.blogspot.com/",
-  ikotv: "https://ikotv.top/",
+  ikotv: "https://ikotv.com/",
 };
 
 let mode;
