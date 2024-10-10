@@ -1,18 +1,18 @@
 const linkPC = {
-  goaloo: "https://www.goaloo12.com/",
-  "808bola": "https://www.808bola116.com/",
-  "tigoals 1": "https://idn109.tigoals118.com/",
-  "tigoals 2": "https://idn00054.tigoals118.com/",
+  goaloo: "https://www.goaloo12.com",
+  "808bola": "https://www.808bola116.com",
+  "tigoals 1": "https://idn109.tigoals118.com",
+  "tigoals 2": "https://idn00054.tigoals118.com",
 };
 
 const linkHP = {
-  goaloo: "https://www.goaloo890.com/",
-  "808bola": "https://www.808bola116.com/",
-  "tigoals 1": "https://idn109.tigoals118.com/",
-  "tigoals 2": "https://idn00054.tigoals118.com/",
-  "duktek sports": "https://nobar-bola.duktek.online/",
-  "phong nha": "https://xemphongnha-kebang.blogspot.com/",
-  ikotv: "https://ikotv.com/",
+  goaloo: "https://www.goaloo890.com",
+  "808bola": "https://www.808bola116.com",
+  "tigoals 1": "https://idn109.tigoals118.com",
+  "tigoals 2": "https://idn00054.tigoals118.com",
+  "duktek sports": "httpa://bit.ly/duktekpro",
+  "phong nha": "https://xemphongnha-kebang.blogspot.com",
+  ikotv: "https://ikotv.com",
 };
 
 let mode;
