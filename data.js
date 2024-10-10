@@ -10,7 +10,7 @@ const linkHP = {
   "808bola": "https://www.808bola116.com",
   "tigoals 1": "https://idn109.tigoals118.com",
   "tigoals 2": "https://idn00054.tigoals118.com",
-  "duktek sports": "httpa://bit.ly/duktekpro",
+  "duktek sports": "https://bit.ly/duktekpro",
   "phong nha": "https://xemphongnha-kebang.blogspot.com",
   ikotv: "https://ikotv.com",
 };
